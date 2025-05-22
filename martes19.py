@@ -1,5 +1,6 @@
 import sqlite3
 c=0
+#21052025
 #conexion db
 def conectar_db():
     return sqlite3.connect('uninpahu.db')

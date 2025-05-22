@@ -57,7 +57,7 @@ def menu(c):
         while c!=6:
             match c:
                 case 1:
-                    print("Consultando todos los usuarios:")
+                    print("Consultando los usuarios:")
                     usuarios = consultar_todos()
                     if usuarios:
                         for usuario in usuarios:
